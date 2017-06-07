@@ -1,0 +1,41 @@
+{
+  "data": {
+    "user": [
+      {
+        "name": "123@123.com",
+        "email": "123@123.com",
+        "password": "123",
+        "createdAt": "2017-06-07T13:03:54.839Z",
+        "updatedAt": "2017-06-07T13:03:54.839Z",
+        "id": 1
+      }
+    ]
+  },
+  "schema": {
+    "user": {
+      "email": {
+        "type": "string"
+      },
+      "password": {
+        "type": "string"
+      },
+      "id": {
+        "type": "integer",
+        "autoIncrement": true,
+        "primaryKey": true,
+        "unique": true
+      },
+      "createdAt": {
+        "type": "datetime"
+      },
+      "updatedAt": {
+        "type": "datetime"
+      }
+    }
+  },
+  "counters": {
+    "user": {
+      "id": 1
+    }
+  }
+}
